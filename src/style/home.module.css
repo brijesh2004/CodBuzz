@@ -1,0 +1,19 @@
+.web_developer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.web_right_part{
+    width: 50%;
+}
+@media (max-width:700px){
+    .web_developer{
+        flex-direction: column;
+      
+    }
+    .web_right_part{
+       margin: 20px;
+    }
+
+}

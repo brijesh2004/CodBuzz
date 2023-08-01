@@ -3,7 +3,7 @@
 }
 .contact_main input ,.contact_main textarea{
     width: 400px;
-    margin: 20px;
+    /* margin: 20px; */
     resize: none;
 }
 .contact_main input{
