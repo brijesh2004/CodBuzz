@@ -1,0 +1,25 @@
+.bottom_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom{
+   
+    background: #7a7979;
+    /* min-height: 500px; */
+}
+.follow{
+    /* display: block;
+    margin: auto; */
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+.follow_img{
+    /* margin: 40px; */
+    margin: 50px;
+}
+.h2{
+    margin-bottom: 10px;
+}

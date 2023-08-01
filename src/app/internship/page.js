@@ -1,5 +1,6 @@
 "use client"
 import { useState ,useEffect,useRef} from 'react';
+import contact from '@/style/contact.module.css';
 import '../internship/intern.css';
 function FadeInSection(props) {
     const [isVisible, setVisible] = useState(false);
@@ -41,37 +42,37 @@ export default function Internship(){
                 <div className='position_box'>
                     <h3>Web Developer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
                 <div className='position_box'>
                     <h3>App Developer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
                 <div className='position_box'>
                     <h3>Java Programming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
                 <div className='position_box'>
                 <h3>C++ Programming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
                 <div className='position_box'>
                 <h3>Python Programming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
                 <div className='position_box'>
                     <h3>Data Science</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
                 <div className='position_box'>
                     <h3>Machine Learning</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab in obcaecati? Dicta quo rem quia recusandae fugit placeat, porro quis officiis dolorem sed id voluptates, nihil totam nesciunt possimus!</p>
-                    <button>Apply Now</button>
+                    <button className={contact.submit_btn1}>Apply Now</button>
                 </div>
             </div>
         </FadeInSection>

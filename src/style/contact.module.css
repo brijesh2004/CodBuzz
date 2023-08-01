@@ -1,0 +1,20 @@
+.contact_main{
+    text-align: center;
+}
+.contact_main input ,.contact_main textarea{
+    width: 400px;
+    margin: 20px;
+    resize: none;
+}
+.contact_main input{
+    height: 45px;
+}
+.submit_btn{
+    width: 200px;
+    height: 45px;
+    margin-bottom: 100px;
+}
+.submit_btn1{
+    width: 150px;
+    height: 45px;
+}

@@ -1,5 +1,6 @@
 "use client"
 import { useState,useEffect } from "react";
+import contact from '@/style/contact.module.css'
 import { useRef } from "react";
 function FadeInSection(props) {
   const [isVisible, setVisible] = useState(false);
@@ -28,7 +29,7 @@ export default function Home() {
 
     <h1>Take Your Career to the Next Level with CodeBuzz</h1><br />
     <h3>Join Our Internship Program</h3><br /><br />
-     <button>Apply</button>
+     <button className={contact.submit_btn}>Apply</button>
    </div>
    </FadeInSection>
   <FadeInSection>
