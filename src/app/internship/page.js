@@ -1,6 +1,7 @@
 "use client"
 import { useState ,useEffect,useRef} from 'react';
 import contact from '@/style/contact.module.css';
+import Animation from '../Animation';
 import '../internship/intern.css';
 function FadeInSection(props) {
     const [isVisible, setVisible] = useState(false);
@@ -22,10 +23,10 @@ function FadeInSection(props) {
   }
 export default function Internship(){
     return (
-        <div>
+        <div className='bg-dark text-white'>
         <FadeInSection>
         <div className="our_internship">
-           <h1>Our Internship</h1>
+          <Animation><h1>Our Internship</h1></Animation> 
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
            Similique nisi officiis itaque nobis velit dolore pariatur
             voluptatibus quo? Magnam, enim? Lorem ipsum dolor sit amet
@@ -37,7 +38,7 @@ export default function Internship(){
         </FadeInSection>
        <br /><br /><br /><br /><br />
       
-        <center><h1>Internship Position</h1></center>
+       <Animation>   <center><h1>Internship Position</h1></center></Animation>
             <div className='position'>
             <FadeInSection>
                 <div className='position_box'>

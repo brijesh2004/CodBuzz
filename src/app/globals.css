@@ -82,14 +82,16 @@
   
   .main_div{
     text-align: center;
-    background: url('https://wallpapercave.com/wp/wp2722874.jpg');
+    background: url('https://th.bing.com/th/id/OIP.TkvbMATNex3GBrB00B6wbwHaDt?pid=ImgDet&rs=1');
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    color: white;
   }
-.who_we_are_main{
+/* .who_we_are_main{
     background-color: #e4e6e6;
-}
+} */
   .who_we_are{
     margin-top: 70px;
      text-align: center;

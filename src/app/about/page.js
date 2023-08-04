@@ -21,6 +21,7 @@ function FadeInSection(props) {
   }
 export default function About(){
     return(
+      <div className='bg-dark text-white'>
         <div className={about.about_page}>
         <FadeInSection>
             <h1>Who We Are ?</h1>
@@ -42,6 +43,7 @@ export default function About(){
                      ipsa aliquam ipsam harum vitae maxime, minima, labore corporis qui,
                       assumenda itaque cum. Eos, dolor? Aperiam laboriosam impedit harum?</p>
                    </FadeInSection>
+        </div>
         </div>
     )
 }

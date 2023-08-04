@@ -13,8 +13,18 @@
     width: 200px;
     height: 45px;
     margin-bottom: 100px;
+    font-size: 22px;
+    background-color: fuchsia;
+    border: none;
+    box-shadow: 0 0 20px;
+    border-radius: 20px;
 }
 .submit_btn1{
     width: 150px;
     height: 45px;
+}
+
+.submit_btn:hover{
+    background-color: green;
+    border-radius: 30px;
 }

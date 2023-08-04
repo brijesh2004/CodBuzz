@@ -28,11 +28,10 @@ function FadeInSection(props) {
 }
 export default function Home() {
   return (
-    <div>
+    <div className="bg-dark text-white">
     <FadeInSection>
    <div className='main_div'>
    <br /><br /><br />
-
     <h1>Take Your Career to the Next Level with CodeBuzz</h1><br />
     <h3>Join Our Internship Program</h3><br /><br />
      <button className={contact.submit_btn}>Apply</button>
@@ -60,13 +59,13 @@ export default function Home() {
   </FadeInSection>
 
   
-    <div>
-      <h1>Service for the Client</h1>
-      <h2>Web Development</h2>
+    <div >
+     <center> <h1>Service for the Client</h1></center> <br /><br />
+     <center>  <h2 style={{textDecoration:'underline'}}>Web Development</h2></center><br /><br /><br />
       <div className={home.web_developer}>
       <div>
        <FadeInSection>
-        <Image src={Web_developer} width={200} height={200}/></FadeInSection>
+        <Image src={Web_developer} width={200} height={200} alt="Image"/></FadeInSection>
         </div>
         <div className={home.web_right_part}>
         <FadeInSection>
@@ -77,11 +76,11 @@ export default function Home() {
          reprehenderit deleniti mollitia sequi cumque
           laboriosam, obcaecati officia architecto odit 
           eum dolores esse delectus?</p>
-          <button>Contact Us</button>
+          <button className={contact.submit_btn1}>Contact Us</button>
           </FadeInSection>
         </div>
-      </div>
-      <h2>App Development</h2>
+      </div><br /><br /><br />
+      <center>  <h2 style={{textDecoration:'underline'}}>App Development</h2></center><br /><br /><br />
       <div className={home.web_developer}>
        
         <div className={home.web_right_part}>
@@ -93,11 +92,11 @@ export default function Home() {
          reprehenderit deleniti mollitia sequi cumque
           laboriosam, obcaecati officia architecto odit 
           eum dolores esse delectus?</p>
-          <button>Contact Us</button></FadeInSection>
+          <button className={contact.submit_btn1}>Contact Us</button></FadeInSection>
         </div>
         <div>
         <FadeInSection>
-        <Image src={App_developer} width={200} height={200}/></FadeInSection>
+        <Image src={App_developer} width={200} height={200} alt="Image"/></FadeInSection>
         </div>
       </div>
     </div>

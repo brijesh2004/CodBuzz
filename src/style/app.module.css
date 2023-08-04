@@ -1,0 +1,25 @@
+.app_flex{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+}
+.app_main{
+    text-align: center;
+}
+.app_left{
+    margin: 20px;
+}
+.app_right{
+    margin: 20px;
+}
+
+.app_right p{
+    font-size: 22px;
+}
+
+@media (max-widht:1000px) {
+    .app_flex{
+        flex-direction: column;
+    }
+}

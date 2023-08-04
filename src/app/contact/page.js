@@ -1,7 +1,7 @@
 import contact from '@/style/contact.module.css';
 export default function Contact(){
     return(
-        <div>
+        <div className='bg-dark text-white'>
            <div className={contact.contact_main}>
              <h1>Contact Us</h1>
              <p>Name</p>
