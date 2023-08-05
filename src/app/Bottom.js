@@ -27,9 +27,9 @@ const Bottom = () => {
             <div className={bottom.bottom_main}>
                 <div>
                   <h2>Use Full Link</h2>
-               <p>  <Link href="/about">About</Link></p> 
-               <p>  <Link href="/internship">Internship</Link></p> 
-               <p>  <Link href="/contact">Contact Us</Link></p> 
+               <p>  <Link href="/about" className='text-decoration-none text-white'>About</Link></p> 
+               <p>  <Link href="/internship" className='text-decoration-none text-white'>Internship</Link></p> 
+               <p>  <Link href="/contact" className='text-decoration-none text-white'>Contact Us</Link></p> 
                 </div>
                 <div>
                    <h2>Contact Info</h2>

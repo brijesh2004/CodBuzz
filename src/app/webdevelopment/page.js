@@ -47,6 +47,11 @@ export default function Webdeveloper() {
                     </FadeInSection>
                 </div>
             </div>
+
+            <div>
+            <h3>Major Technology Use for WebDevelopment</h3>
+            
+           </div> 
         </div>
     )
 }
