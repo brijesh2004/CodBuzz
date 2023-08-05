@@ -3,6 +3,12 @@ import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Web_developer from '@/Images/web_development.gif';
 import app from '@/style/app.module.css';
+import  html  from '@/Images/html.png';
+import css from '@/Images/css.png';
+import js from '@/Images/JavaScript.png';
+import node from '@/Images/Node.png';
+import mongoDB from '@/Images/MongoDB.png';
+import php from '@/Images/php.png';
 function FadeInSection(props) {
     const [isVisible, setVisible] = useState(false);
     const domRef = useRef();
@@ -48,9 +54,16 @@ export default function Webdeveloper() {
                 </div>
             </div>
 
-            <div>
+            <div className={app.usetech}>
             <h3>Major Technology Use for WebDevelopment</h3>
-            
+             <div className={app.imagelist}>
+                <Image  src={html} width={200} height={200} alt='html'/>
+                <Image  src={css} width={200} height={200} alt='cs'/>
+                <Image  src={js} width={200} height={200} alt='JavaScript'/>
+                <Image  src={node} width={200} height={200} alt='Node js'/>
+                <Image  src={php} width={200} height={200} alt='php'/>
+                <Image  src={mongoDB} width={200} height={200} alt='MongoDB'/>
+             </div>
            </div> 
         </div>
     )

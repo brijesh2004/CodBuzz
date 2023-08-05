@@ -23,3 +23,10 @@
         flex-direction: column;
     }
 }
+.usetech{
+    margin-top: 40px;
+    text-align: center;
+}
+.imagelist img{
+    margin: 90px;
+}
