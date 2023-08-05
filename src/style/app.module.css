@@ -27,6 +27,11 @@
     margin-top: 40px;
     text-align: center;
 }
+.imagelist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .imagelist img{
     margin: 90px;
 }

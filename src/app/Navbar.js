@@ -1,10 +1,12 @@
 import Link from "next/link"
+import Image from "next/image";
+import CodBuzz from '@/Images/Codbuzz.png';
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-primary">
   <div className="container-fluid">
-    <Link className="navbar-brand " href="/"><h1>CodBuzz</h1></Link>
+    <Link className="navbar-brand " href="/"><Image src={CodBuzz} width={300} height={80}/></Link>
     <button className="navbar-toggler bg-light text-align-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon "></span>
     </button>

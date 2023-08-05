@@ -6,6 +6,11 @@
     /* margin: 20px; */
     resize: none;
 }
+@media (max-width:600px){
+    .contact_main input , .contact_main textarea{
+        width: 300px;
+    }
+}
 .contact_main input{
     height: 45px;
 }

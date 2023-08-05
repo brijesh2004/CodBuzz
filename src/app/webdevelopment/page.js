@@ -9,6 +9,7 @@ import js from '@/Images/JavaScript.png';
 import node from '@/Images/Node.png';
 import mongoDB from '@/Images/MongoDB.png';
 import php from '@/Images/php.png';
+import Animation from '../Animation';
 function FadeInSection(props) {
     const [isVisible, setVisible] = useState(false);
     const domRef = useRef();
@@ -55,14 +56,14 @@ export default function Webdeveloper() {
             </div>
 
             <div className={app.usetech}>
-            <h3>Major Technology Use for WebDevelopment</h3>
+            <h3>Major Technology Used for WebDevelopment</h3>
              <div className={app.imagelist}>
-                <Image  src={html} width={200} height={200} alt='html'/>
-                <Image  src={css} width={200} height={200} alt='cs'/>
-                <Image  src={js} width={200} height={200} alt='JavaScript'/>
-                <Image  src={node} width={200} height={200} alt='Node js'/>
-                <Image  src={php} width={200} height={200} alt='php'/>
-                <Image  src={mongoDB} width={200} height={200} alt='MongoDB'/>
+             <Animation>  <Image  src={html} width={200} height={200} alt='html'/></Animation> 
+                 <Animation><Image  src={css} width={200} height={200} alt='cs'/></Animation> 
+                 <Animation><Image  src={js} width={200} height={200} alt='JavaScript'/></Animation> 
+                 <Animation><Image  src={node} width={200} height={200} alt='Node js'/></Animation> 
+                 <Animation><Image  src={php} width={200} height={200} alt='php'/></Animation> 
+                 <Animation><Image  src={mongoDB} width={200} height={200} alt='MongoDB'/></Animation> 
              </div>
            </div> 
         </div>

@@ -2,7 +2,14 @@
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import App_developer from '@/Images/app_development.gif';
+import java from '@/Images/Java.jpeg';
+import flutter from '@/Images/flutter.png';
+import kotlin from '@/Images/kotlin.jpeg';
+import reactNative from '@/Images/react-native.jpeg';
+import mongoDB from '@/Images/MongoDB.png';
 import app from '@/style/app.module.css';
+import node from '@/Images/Node.png';
+import Animation from '../Animation';
 function FadeInSection(props) {
     const [isVisible, setVisible] = useState(false);
     const domRef = useRef();
@@ -46,6 +53,17 @@ export default function Appdeveloper() {
                     </FadeInSection>
                 </div>
             </div>
+            <div className={app.usetech}>
+            <h3>Major Technology Used for App Development</h3>
+             <div className={app.imagelist}>
+               <Animation> <Image  src={java} width={200} height={200} alt='java'/></Animation>
+               <Animation><Image  src={flutter} width={200} height={200} alt='flutter'/></Animation>
+               <Animation> <Image  src={kotlin} width={200} height={200} alt='kotlin'/></Animation>
+               <Animation> <Image  src={reactNative} width={200} height={200} alt='react Native'/></Animation>
+               <Animation> <Image  src={node} width={200} height={200} alt='Node js'/></Animation>
+               <Animation> <Image  src={mongoDB} width={200} height={200} alt='MongoDB'/></Animation>
+             </div>
+           </div> 
         </div>
     )
 }
