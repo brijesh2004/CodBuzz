@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-primary">
   <div className="container-fluid">
-    <Link className="navbar-brand " href="/"><Image src={CodBuzz} width={300} height={80}/></Link>
+    <Link className="navbar-brand " href="/"><Image src={CodBuzz} width={220} height={80}/></Link>
     <button className="navbar-toggler bg-light text-align-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon "></span>
     </button>
